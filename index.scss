@@ -2,7 +2,7 @@
 .nib-search {
   position: absolute;
   right: 0px;
-  top: 45px;
+  top: 38px;
 }
 
 .nib-search .search-box {
@@ -11,50 +11,38 @@
 
 //Search text input
 .gsc-search-box .gsc-input-box {
-	border: 1px #BBB solid; 
+	border: 1px #aaa solid; 
 	border-right: none;
-	border-radius: 4px 0 0 4px;
-	height: 22px;
+	border-radius: 2px 0 0 2px;
+	height: 29px;
 }
 
 // Search button
-// hover to overide googles hover style
-.gsc-search-button input.gsc-search-button,
-.gsc-search-button input.gsc-search-button:hover {
-	border: 1px #BBB solid; 
-	border-radius: 0 4px 4px 0;
+.gsc-search-button input.gsc-search-button {
+	border: 1px #aaa solid; 
+	border-radius: 0 2px 2px 0;
 	margin-left: 0;
 	margin-top: 0;
-	background: #DDD;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#F9F9F9), color-stop(100%,#DDD));
-  -moz-border-radius: 0 4px 4px 0;
-  -webkit-border-radius: 0 4px 4px 0;
-  border-radius: 0 4px 4px 0;
-  -moz-box-shadow: 1px 1px 0 #FFFFFF inset;
-  -webkit-box-shadow: 1px 1px 0 white inset;
-  box-shadow: 1px 1px 0 white inset;
-  color: #444;
-  cursor: pointer;
+	background: #aaa;
+  background: linear-gradient(to bottom, #bbb 0%, #aaa 100%);
+  padding: 8px 20px;
 }
 
-.gsc-search-button input.gsc-search-button {
-	padding: 4px 20px 5px 20px;
+// overide googles hover style
+.gsc-search-button input.gsc-search-button:hover {
+	background: #aaa;
+  background: linear-gradient(to bottom, #bbb 0%, #aaa 100%);
 }
 
 .gsc-search-button input.gsc-search-button:active {
-	background: #cccccc;
-	background: -moz-linear-gradient(top, #eeeeee 1%, #cccccc 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#eeeeee), color-stop(100%,#cccccc));
-	background: -webkit-linear-gradient(top, #eeeeee 1%,#cccccc 100%);
-	background: -o-linear-gradient(top, #eeeeee 1%,#cccccc 100%);
-	background: -ms-linear-gradient(top, #eeeeee 1%,#cccccc 100%);
-	background: linear-gradient(top, #eeeeee 1%,#cccccc 100%);
+	background: #999;
+	background: linear-gradient(to bottom, #aaa 0%, #999 100%);
 }
 
 .search-box .gsst_a {
-  padding-top: 5px;
+  padding-top: 8px;
 }
 
 .search-box .gsib_a {
-  padding-top: 0px;
+  padding-top: 3px;
 }
