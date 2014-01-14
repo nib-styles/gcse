@@ -5,6 +5,7 @@
   top: 38px;
   .search-box {
 		width: 280px;
+	}
 }
 
 //Search text input
@@ -28,8 +29,7 @@
   	background: #aaa;
   	background: linear-gradient(to bottom, #bbb 0%, #aaa 100%);
   }
-  &:active,
-  &:focus {
+  &:active, &:focus {
   	background: #999;
 		background: linear-gradient(to bottom, #aaa 0%, #999 100%);
   }
@@ -40,6 +40,6 @@
 	  padding-top: 8px;
 	}
 	.gsib_a {
- 		padding-top: 3px;
-	}
+  		padding-top: 3px;
+  	}
 }
