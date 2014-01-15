@@ -1,22 +1,20 @@
-
 .nib-search {
   position: absolute;
   right: 0px;
   top: 38px;
-  .search-box {
-		width: 280px;
-	}
 }
 
-//Search text input
+.nib-search .search-box {
+	width: 280px;
+}
+
 .gsc-search-box .gsc-input-box {
-	border: 1px #aaa solid; 
+	border: 1px #aaa solid;
 	border-right: none;
 	border-radius: 2px 0 0 2px;
 	height: 29px;
 }
 
-// Search button
 .gsc-search-button input.gsc-search-button {
 	border: 1px #aaa solid; 
 	border-radius: 0 2px 2px 0;
@@ -25,21 +23,23 @@
 	background: #aaa;
   background: linear-gradient(to bottom, #bbb 0%, #aaa 100%);
   padding: 8px 20px;
-  &:hover {
-  	background: #aaa;
-  	background: linear-gradient(to bottom, #bbb 0%, #aaa 100%);
-  }
-  &:active, &:focus {
-  	background: #999;
-		background: linear-gradient(to bottom, #aaa 0%, #999 100%);
-  }
 }
 
-.search-box{
-	.gsst_a {
-	  padding-top: 8px;
-	}
-	.gsib_a {
-  		padding-top: 3px;
-  	}
+.gsc-search-button input.gsc-search-button:hover {
+	background: #aaa;
+	background: linear-gradient(to bottom, #bbb 0%, #aaa 100%);
+}
+
+.gsc-search-button input.gsc-search-button:active, 
+.gsc-search-button input.gsc-search-button:focus {
+  background: #999;
+  background: linear-gradient(to bottom, #aaa 0%, #999 100%);
+}
+
+.search-box .gsst_a {
+	padding-top: 8px;
+}
+
+.search-box	.gsib_a {
+	padding-top: 3px;
 }
