@@ -24,17 +24,20 @@
 	background: #aaa;
   background: linear-gradient(to bottom, #bbb 0%, #aaa 100%);
   padding: 8px 20px;
+
 }
 
 .gsc-search-button input.gsc-search-button:hover {
 	background: #aaa;
 	background: linear-gradient(to bottom, #bbb 0%, #aaa 100%);
+	border: 1px #aaa solid;  
 }
 
 .gsc-search-button input.gsc-search-button:active, 
 .gsc-search-button input.gsc-search-button:focus {
   background: #999;
   background: linear-gradient(to bottom, #aaa 0%, #999 100%);
+  border: 1px #aaa solid;  
 }
 
 .search-box .gsst_a {
